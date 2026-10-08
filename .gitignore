@@ -9,3 +9,27 @@ screenshots
 data/
 data
 submodules/
+# datasets
+*.zip
+
+# python cache
+__pycache__/
+*.pyc
+
+# checkpoints
+output/
+existsoutput/
+
+# submodule changes
+submodules/*
+
+# large arrays
+*.npy
+# temporary generated frames
+results/video_frames/
+results/comparison_frames/
+
+# intermediate results
+results_*.txt
+results_summary.csv
+mmcv.py
